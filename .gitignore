@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+
+# Local data, evaluation submissions, and derived artifacts
+antrenare/
+validare/
+testare/
+evaluare/
+solutie_fisiere/processed_data/
+solutie_fisiere/rezultate/
+outputs/
+
+# Model checkpoints and YOLO experiments
+*.pth
+*.pt
+solutie_fisiere/yolo_dataset*/
+solutie_fisiere/yolo_training*/
+solutie_fisiere/src/**/outputs/
+runs/
+
+# IDE and macOS files
+.idea/
+.DS_Store
