@@ -1,0 +1,17 @@
+name: cava_face_detection
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch>=2.0.0
+  - torchvision>=0.15.0
+  - opencv>=4.8.0
+  - matplotlib>=3.7.0
+  - tqdm>=4.65.0
+  - numpy>=1.24.0
+  - pillow>=10.0.0
+  - pip
+  - pip:
+    - ultralytics>=8.0.0  # Optional for YOLO bonus
